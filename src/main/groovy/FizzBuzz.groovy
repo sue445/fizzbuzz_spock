@@ -13,6 +13,8 @@ class FizzBuzz {
             "Fizz"
         } else if(num % 5 == 0){
             "Buzz"
+        } else{
+            num.toString()
         }
     }
 }

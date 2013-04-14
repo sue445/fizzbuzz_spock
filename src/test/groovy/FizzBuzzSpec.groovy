@@ -40,4 +40,15 @@ class FizzBuzzSpec extends Specification{
         then:
         actual == "FizzBuzz"
     }
+
+    def "3の倍数でも5の倍数でもない時に入力値が返ってくること"(){
+        setup:
+        def sut = new FizzBuzz()
+
+        when:
+        def actual = sut.result(1)
+
+        then:
+        actual == "1"
+    }
 }
