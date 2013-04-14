@@ -7,7 +7,9 @@
  */
 class FizzBuzz {
     String result(int num){
-        if(num % 3 == 0){
+        if(num % 15 == 0){
+            "FizzBuzz"
+        } else if(num % 3 == 0){
             "Fizz"
         } else if(num % 5 == 0){
             "Buzz"

@@ -29,4 +29,15 @@ class FizzBuzzSpec extends Specification{
         then:
         actual == "Buzz"
     }
+
+    def "15の倍数の時にFizzBuzzが返ってくること"(){
+        setup:
+        def sut = new FizzBuzz()
+
+        when:
+        def actual = sut.result(15)
+
+        then:
+        actual == "FizzBuzz"
+    }
 }
