@@ -13,7 +13,7 @@ class FizzBuzzSpec extends Specification{
         def sut = new FizzBuzz()
 
         when:
-        def actual = sut.result()
+        def actual = sut.result(3)
 
         then:
         actual == "Fizz"
