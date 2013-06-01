@@ -1,0 +1,1 @@
+[![Build Status](https://travis-ci.org/sue445/fizzbuzz_spock.png?branch=master)](https://travis-ci.org/sue445/fizzbuzz_spock)
