@@ -2,3 +2,6 @@ language: groovy
 jdk:
   - openjdk6
   - openjdk7
+allow_failures:
+  - openjdk6
+  - openjdk7
