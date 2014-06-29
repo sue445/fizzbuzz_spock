@@ -74,7 +74,7 @@ class FizzBuzzSpec extends Specification{
         11  | "11"
         12  | "Fizz"
         13  | "13"
-        14  | "14aaaaaaaaaaa"
+        14  | "14"
         15  | "FizzBuzz"
     }
 }
